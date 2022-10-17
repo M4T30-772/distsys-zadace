@@ -1,0 +1,6 @@
+List = ("Stol", "Stolica", "Krevet","Fotelja")
+
+def fun1(List):
+    for x in List:
+        return {x[::-1]  }
+print(fun1(List))
